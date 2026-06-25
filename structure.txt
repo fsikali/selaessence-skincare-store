@@ -1,0 +1,122 @@
+src
+├── app
+│   ├── (account)
+│   │   ├── addresses
+│   │   ├── profile
+│   │   └── settings
+│   ├── (auth)
+│   │   ├── forgot-password
+│   │   ├── login
+│   │   └── register
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── (marketing)
+│   │   ├── about
+│   │   │   └── page.tsx
+│   │   ├── blog
+│   │   │   └── page.tsx
+│   │   ├── brands
+│   │   ├── deals
+│   │   ├── happy-customers
+│   │   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   └── press
+│   │       └── page.tsx
+│   ├── page.tsx
+│   ├── (shop)
+│   │   ├── cart
+│   │   │   └── page.tsx
+│   │   ├── checkout
+│   │   ├── orders
+│   │   ├── products
+│   │   │   ├── page.tsx
+│   │   │   └── [slug]
+│   │   │       ├── error.tsx
+│   │   │       ├── loading.tsx
+│   │   │       └── page.tsx
+│   │   ├── shop
+│   │   │   └── page.tsx
+│   │   └── wishlist
+│   └── (user)
+│       ├── account
+│       │   └── page.tsx
+│       ├── skin-quiz
+│       │   └── page.tsx
+│       └── wholesale
+│           └── page.tsx
+├── assets
+│   ├── icons
+│   └── images
+├── components
+│   ├── cart
+│   ├── checkout
+│   ├── Footer.tsx
+│   ├── HeaderNav.tsx
+│   ├── HeaderTop.tsx
+│   ├── layout
+│   ├── NavLink.tsx
+│   ├── pages
+│   │   ├── AboutPageContent.tsx
+│   │   ├── AccountPageContent.tsx
+│   │   ├── BlogPageContent.tsx
+│   │   ├── CartPageContent.tsx
+│   │   ├── HappyCustomersPageContent.tsx
+│   │   ├── HomePageContent.tsx
+│   │   ├── PressPageContent.tsx
+│   │   ├── ShopPageContent.tsx
+│   │   ├── SkinQuizPageContent.tsx
+│   │   └── WholesalePageContent.tsx
+│   ├── search
+│   ├── SearchBar.tsx
+│   ├── sections
+│   ├── shared
+│   └── ui
+├── constants
+├── error.tsx
+├── features
+│   ├── auth
+│   │   ├── api.ts
+│   │   ├── hooks.ts
+│   │   └── types.ts
+│   ├── cart
+│   │   ├── api.ts
+│   │   └── store.ts
+│   ├── orders
+│   │   └── api.ts
+│   ├── products
+│   │   ├── apis.ts
+│   │   ├── hooks.ts
+│   │   └── types.ts
+│   └── quiz
+├── hooks
+│   ├── use-auth.ts
+│   ├── use-cart.ts
+│   └── use-fetch.ts
+├── lib
+│   ├── constants.ts
+│   ├── env.ts
+│   └── utils.ts
+├── not-found.tsx
+├── robots.ts
+├── services
+│   ├── auth.service.ts
+│   ├── http
+│   │   ├── client.ts
+│   │   └── endpoints.ts
+│   ├── order.service.ts
+│   ├── payment.service.ts
+│   └── product.service.ts
+├── sitemap.ts
+├── store
+│   ├── cart-store.ts
+│   ├── ui-store.ts
+│   └── user-store.ts
+├── styles
+│   └── theme.css
+└── types
+    ├── order.ts
+    ├── product.ts
+    └── user.ts
+
+55 directories, 65 files
